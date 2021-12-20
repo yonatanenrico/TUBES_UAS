@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="55px"
+                android:padding="8dp"
+                android:background="#B4B6EC">
+
+                <ImageButton
+                    android:id="@+id/btnAccount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_blue_title"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/ic_baseline_account_circle_24" />
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:text="MENU"
+                    android:textSize="66px"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="100dp"
+                    android:fontFamily="arial"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    style="@style/TextAppearance.MaterialComponents.Subtitle1"/>
+
+                <ImageButton
+                    android:id="@+id/btnLokasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/light_blue_title"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/ic_baseline_location_on_24" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="250px"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/rv_menu"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="350px"
+                android:layout_marginTop="90dp"
+                android:layout_gravity="bottom"
+                android:background="#B4B6EC"
+                android:orientation="horizontal"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/ivLogin"
+                    android:layout_width="100dp"
+                    android:layout_marginLeft="140dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/img"
+                    android:textAlignment="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <include
+        android:id="@+id/layout_loading"
+        layout="@layout/layout_loading"
+        android:visibility="gone" />
+</androidx.constraintlayout.widget.ConstraintLayout>

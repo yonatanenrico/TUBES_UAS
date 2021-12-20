@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Horeg Resto</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiZGFuaWVsZnJlbnoiLCJhIjoiY2t1cHFhdzByMzVxZzJydDRvejg1cmdqNyJ9.bwcb2QqE6Yf308n7yBxJpg</string>
+    <string name="logout">Logout</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="menu">Menu</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="akun">Akun</string>
+    <string name="teks_register">Register Akun</string>
+    <string name="welcome">Selamat Datang</string>
+    <string name="clear_field">Clear Field</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="nama_resto">Horeg Restaurant</string>
+    <string name="alamat_resto">Jl. Jend. Sudirman No.99-101, Terban, Kec. Gondokusuman, Kota Yogyakarta, Daerah Istimewa Yogyakarta</string>
+</resources>

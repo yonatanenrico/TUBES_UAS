@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "577398263569",
+    "project_id": "hotel-yuk",
+    "storage_bucket": "hotel-yuk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577398263569:android:2abb28108658d37985c6b0",
+        "android_client_info": {
+          "package_name": "com.example.hotelyuk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577398263569-41tgcgii8th7klld9sadiu018pepi26j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hotelyuk",
+            "certificate_hash": "a1ae3480f7bf89ce2c36e48315f9d1b9cad25fe9"
+          }
+        },
+        {
+          "client_id": "577398263569-e7mmdrpgd181t71dcri1f0g4otmfhi32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIYfh0-LBD57XhySTGnQMoFbEohrPp9cA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577398263569-e7mmdrpgd181t71dcri1f0g4otmfhi32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
